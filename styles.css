@@ -1,5 +1,5 @@
 table {
-    width: 90%;
+    width: 75%;
     background-color: #13a044;/*háttérszín*/
     color: rgb(255, 255, 255); /*betűszín*/
     font-family: 'Arial'; /*betűtípus*/
@@ -9,9 +9,10 @@ tr:nth-child(even) {
     background-color: #184a05;
   }
   #ido{
+    font-size: 22px;
     color:#0f490f
   }
-  #aunkunft{
+  #ankunft{
     font-size: 17px;
     background-color: #184a05;
   }
@@ -23,9 +24,24 @@ tr:nth-child(even) {
     font-size: 22px;
     background-color: #184a05;
   }
-  #logo{
+  #logo {
     background-color: #184a05;
   }
-  #masodiksor{
-    
+  style {
+    border-bottom:#0f490f
+  }
+  table {
+    border-collapse: collapse;  border-spacing: 0;
+  }
+  #varhato {
+    font-size: 50%;
+  }
+  #tervezett {
+    font-size: 50%;
+  }
+  #elsosor {
+    height: auto;
+  }
+  #keses {
+    background-color: #ff0000;
   }

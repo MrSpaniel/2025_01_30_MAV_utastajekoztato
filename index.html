@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table align="center">
+    <table align="center"   tr {
+    border-bottom: 1px solid;
+  }>
         <colgroup>
-        <col span="5">
+        <col span="2" style="width: 80px;">
+        <col span="1" style="width: 80px;">
+        <col span="2">
         <col span="1" style="width: 40px;">
         </colgroup>
-        <tr>
+        <tr id="elsosor">
             <th colspan="2" style="background-color: rgb(214, 214, 214);" id="ido">8:43:03</th>
-            <td id="aunkunft" align="right">
+            <td id="ankunft" align="right">
                 <strong>Ankunft</strong>
             </td>
             <td id="erkezovonatok" align="right">
@@ -24,61 +28,61 @@
                 <strong>Arrivals</strong>
              </td> 
             <td id="logo">
-            <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNUBT_WccVMYC45LWAUy0f_Td5G-zh_Nk85P_u7vKT3pbMmLMdRZ0BfcQ0thCF-qU4isxiDwO5Zu8tAoT0Ss21phTFbfjI6vIbNlmVthrBOgpw=w2560-h1272" width="120%" alt="máv logo" align="right">
+            <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNUBT_WccVMYC45LWAUy0f_Td5G-zh_Nk85P_u7vKT3pbMmLMdRZ0BfcQ0thCF-qU4isxiDwO5Zu8tAoT0Ss21phTFbfjI6vIbNlmVthrBOgpw=w2560-h1272" width="90%" alt="máv logo" align="center">
         </td>
         </tr> 
-        <tr style="font-size: 20px;" id="masodiksor" align="center">
-            <th>Tervezett<br>érkezés</th>
-            <th>Várható<br>érkezés</th>
+        <tr style="font-size: 20px;" align="center">
+            <th id="tervezett">Tervezett<br>érkezés</th>
+            <th id="varhato">Várható<br>érkezés</th>
             <th>Vonat</th>
             <th>Honnan</th>
             <th></th>
             <th align="left">Vg.</th>
         </tr>
     <tr>            
-        <td>8:30</td>
-        <td>8:42</td>
-        <td>IC</td>
+        <td align="center">8:30</td>
+        <td id="keses" align="center">8:42</td>
+        <td><img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNNAX1I_h3FfwN_hPzIf9G1iMx_jpBt_WDbQt8oYZVclldZpSozZ2-6Z8sdiaZcIW3X8X-LU8vwOiz2TP9kVevSTXyFHlovzx-UILYdDFY2DvQ=w2560-h1272" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
         <td>Szeged</td>
         <td>Szatymaz - Kistelek</td>
         <td align="right">5</td>
     </tr>
     <tr>
-        <td>9:22</td>
+        <td align="center">9:22</td>
         <td></td>
-        <td>SZ</td>
+        <td><img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBM_n_NnzBlL-MdCw0DL78ZOXhnEE3WNFAQH6kdFrEBp48I3srIFiHwIyhScHDQNhNEt94kCH3qJTM16_Yb2NXxttLJpfZxqbYUbq9QNaxymmaE=w2560-h1272" width="65%" style="vertical-align: middle;margin: 6px 14px"></td>
         <td>Szentes</td>
         <td>Csongrád</td>
         <td align="right">2</td>
     </tr>
     <tr>
-        <td>9:22</td>
+        <td align="center">9:22</td>
         <th></td>
-        <td>IC</td>
+        <td><img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNNAX1I_h3FfwN_hPzIf9G1iMx_jpBt_WDbQt8oYZVclldZpSozZ2-6Z8sdiaZcIW3X8X-LU8vwOiz2TP9kVevSTXyFHlovzx-UILYdDFY2DvQ=w2560-h1272" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
         <td>Szeged</td>
         <td>Szatymaz - Kistelek</td>
         <td align="right">4</td>
     </tr>
     <tr>
-        <td>9:24</td>
+        <td align="center">9:24</td>
         <td></td>
-        <td>SZ</td>
+        <td><img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBM_n_NnzBlL-MdCw0DL78ZOXhnEE3WNFAQH6kdFrEBp48I3srIFiHwIyhScHDQNhNEt94kCH3qJTM16_Yb2NXxttLJpfZxqbYUbq9QNaxymmaE=w2560-h1272" width="65%" style="vertical-align: middle;margin: 6px 14px"></td>
         <td>Lakitelek</td>
         <td>Tiszaalpár</td>
         <td align="right">1</td>
     </tr>
     <tr>
-        <td>9:27</td>
+        <td align="center">9:27</td>
         <td></td>
-        <td>IC</td>
+        <td><img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNNAX1I_h3FfwN_hPzIf9G1iMx_jpBt_WDbQt8oYZVclldZpSozZ2-6Z8sdiaZcIW3X8X-LU8vwOiz2TP9kVevSTXyFHlovzx-UILYdDFY2DvQ=w2560-h1272" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
         <td>Nyugati** Budapest</td>
         <td>Cegléd - Kecskemét</td>
         <td align="right">5</td>
     </tr>
     <tr>
-        <td>9:30</td>
+        <td align="center">9:30</td>
         <td></td>
-        <td>IC</td>
+        <td><img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNNAX1I_h3FfwN_hPzIf9G1iMx_jpBt_WDbQt8oYZVclldZpSozZ2-6Z8sdiaZcIW3X8X-LU8vwOiz2TP9kVevSTXyFHlovzx-UILYdDFY2DvQ=w2560-h1272" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
         <td>Szeged</td>
         <td>Szatymaz - Kistelek</td>
         <td align="right">3</td>
