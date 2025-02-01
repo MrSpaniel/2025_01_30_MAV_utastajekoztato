@@ -1,5 +1,4 @@
 table {
-    width: 80%; /*weboldal szélessége*/
     background-color: #1a8000;/*háttérszín*/
     color: rgb(255, 255, 255); /*betűszín*/
     font-family: 'Calibri'; /*betűtípus*/
@@ -7,4 +6,7 @@ table {
 }
 tr:nth-child(even) {
     background-color: #0f490f;
+  }
+  #ido{
+    color:#0f490f
   }
