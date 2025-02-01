@@ -1,7 +1,8 @@
 table {
+    width: 90%;
     background-color: #1a8000;/*háttérszín*/
     color: rgb(255, 255, 255); /*betűszín*/
-    font-family: 'Calibri'; /*betűtípus*/
+    font-family: 'Arial'; /*betűtípus*/
     font-size: 30px;
 }
 tr:nth-child(even) {
@@ -9,4 +10,13 @@ tr:nth-child(even) {
   }
   #ido{
     color:#0f490f
+  }
+  #aunkunft{
+    font-size: 17px;
+  }
+  #arrivals{
+    font-size: 17px;
+  }
+  #erkezovonatok{
+    font-size: 22px;
   }
