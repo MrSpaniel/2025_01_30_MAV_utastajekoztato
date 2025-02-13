@@ -11,3 +11,7 @@ tr:nth-child(even) {
   table {
     border-collapse: collapse;  border-spacing: 0;
   }
+  #clock{
+    font-size: 22px;
+    color:rgb(57, 97, 133)
+  }
