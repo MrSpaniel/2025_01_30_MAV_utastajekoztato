@@ -15,3 +15,6 @@ tr:nth-child(even) {
     font-size: 22px;
     color:rgb(57, 97, 133)
   }
+  #late{
+    background-color: rgb(255, 0, 0)
+  }
