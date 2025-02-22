@@ -1,0 +1,21 @@
+#izé{
+    float: left;
+    font-size: 30px;
+    font-family: Arial;
+    border-collapse: collapse;
+}
+#cucc{
+    width: 70%;
+    font-family: Arial;
+    color: white;
+    background-color: rgb(57, 97, 133);
+    tr:nth-child(even) {
+        background-color: rgb(69, 121, 151);
+      }
+      border-collapse: collapse;
+}
+#time{
+    background-color: rgb(214, 214, 214);
+    color: rgb(57, 97, 133);
+    font-size: 22px;
+}

@@ -31,10 +31,9 @@ tr:nth-child(even) {
     font-size: 50%;
   }
   #tabla{
-    background-color: brown;
+    background-color: rgb(19, 160, 68);
     width: 10%;
-    font-family: cursive;
-    font-size: ;
+    font-family: Arial;
     }
     body{
       background-image: url(hatter5.jpg);

@@ -1,17 +1,16 @@
 table {
-  float: ;
     width: 75%;
-    background-color: #13a044;/*háttérszín*/
+    background-color: rgb(19, 160, 68);/*háttérszín*/
     color: rgb(255, 255, 255); /*betűszín*/
     font-family: 'Arial'; /*betűtípus*/
     font-size: 30px;
 }
 tr:nth-child(even) {
-    background-color: #184a05;/*hatter*/
+    background-color: rgb(24, 74, 5);/*hatter*/
   }
   #ido{
     font-size: 22px; /*ido*/
-    color:#0f490f
+    color:rgb(15, 73, 15)
   }
   #ankunft{
     font-size: 17px;
