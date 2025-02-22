@@ -5,7 +5,15 @@
     <meta name="viewport" content="widtd=device-width, initial-scale=1.0">
     <title>MÁV utastájékoztató</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
+<table style="background-color: brown; float: left; width: 10%; font-family: cursive;">
+    <tr>
+        <th>
+            <a href="indulo_vonatok.html">INDULÓ<br>VONATOK</a>
+        </th>
+    </tr>
+</table>
 <body>
     <table align="center"   tr {
     border-bottom: 1px solid;
@@ -17,7 +25,7 @@
         <col span="1" style="width: 40px;">
         </colgroup>
         <tr id="elsosor">
-            <th colspan="2" style="background-color: rgb(214, 214, 214);" id="ido">8:43:03</th>
+            <th colspan="2" style="background-color: rgb(214, 214, 214);" id="ido"><div id="clock"></div></th>
             <td id="ankunft" align="right">
                 <strong>Ankunft</strong>
             </td>

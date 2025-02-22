@@ -11,10 +11,35 @@ tr:nth-child(even) {
   table {
     border-collapse: collapse;  border-spacing: 0;
   }
-  #clock{
+  #time{
     font-size: 22px;
     color:rgb(57, 97, 133)
   }
   #late{
     background-color: rgb(255, 0, 0)
   }
+  #abfahrt{
+    font-size: 17px;
+  }
+  #departures{
+    font-size: 17px;
+  }
+  #tervezett{
+    font-size: 50%;
+  }
+  #varhato{
+    font-size: 50%;
+  }
+  #tabla{
+    background-color: brown;
+    width: 10%;
+    font-family: cursive;
+    font-size: ;
+    }
+    body{
+      background-image: url(hatter5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: 90% 90%;
+    }

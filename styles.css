@@ -1,4 +1,5 @@
 table {
+  float: ;
     width: 75%;
     background-color: #13a044;/*háttérszín*/
     color: rgb(255, 255, 255); /*betűszín*/
@@ -6,10 +7,10 @@ table {
     font-size: 30px;
 }
 tr:nth-child(even) {
-    background-color: #184a05;
+    background-color: #184a05;/*hatter*/
   }
   #ido{
-    font-size: 22px;
+    font-size: 22px; /*ido*/
     color:#0f490f
   }
   #ankunft{
@@ -44,4 +45,11 @@ tr:nth-child(even) {
   }
   #keses {
     background-color: #ff0000;
+  }
+  body{
+    background-image: url(hatter3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 90% 90%;
   }

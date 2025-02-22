@@ -5,97 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Induló vonatok</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body align="center">
+<table id="tabla" align="left">
+    <tr>
+    <th>
+        <a href="index.html">ÉRKEZŐ<br>VONATOK</a>
+    </th>
+    </tr>
+</table>
+<body>
     <table align="center">
+        <colgroup>
+            <col span="2" style="width: 80px;">
+            <col span="1" style="width: 80px;">
+            <col span="2">
+            <col span="1" style="width: 40px;">
+            </colgroup>
         <thead>
+
             <tr>
-                <th style="background-color: rgb(214, 214, 214)" colspan="2" id="clock">12:02:29</th>
-                <th>Abfahrt</th>
-                <th>INDULÓ VONATOK</th>
-                <th>Departures</th>
+                <th style="background-color: rgb(214, 214, 214); font-size: 22px; color: rgb(57, 97, 133);" colspan="2"><div id="clock"></div></th></div>
+                <th id="abfahrt">Abfahrt</th>
+                <th align="right" style="font-size: 22px;">INDULÓ VONATOK</th>
+                <th id="departures">Departures</th>
                 <th><img src="mavlogo.png" width="90%" alt="máv logo" align="center"></th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Tervezett Indulás</td>
-                <td>Várható Indulás</td>
-                <td>Vonat</td>
-                <td colspan="2">Hová</td>
-                <td>Vg.</td>
+            <tr style="font-size: 20px;" align="center">
+                <td id="tervezett"><strong>Tervezett indulás</strong></td>
+                <td id="varhato"><strong>Várható<br>indulás</strong></td>
+                <td><strong>Vonat</strong></td>
+                <td><strong>Hová</strong></td>
+                <td></td>
+                <td><strong>Vg.</strong></td>
             </tr>
             <tr>
                 <td>08:31</td>
                 <td id="late">08:43</td>
-                <td>717</td>
-                <td>Budapest-Nyugati**</td>
-                <td>Kecskemét-Cegléd</td>
-                <td>5</td>
+                <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
+                <td align="left">Budapest-Nyugati**</td>
+                <td align="left">Kecskemét-Cegléd</td>
+                <td align="right">5</td>
             </tr>
             <tr>
                 <td>08:33</td>
                 <td></td>
-                <td>7022</td>
-                <td>Szeged</td>
-                <td>Kistelek-Szatymaz</td>
-                <td>4</td>
+                <td><img src="szemelyvonat.png" alt="SZ" width="65%" style="vertical-align: middle;margin: 6px 14px"></td>
+                <td align="left">Szeged</td>
+                <td align="left">Kistelek-Szatymaz</td>
+                <td align="right">4</td>
             </tr>
             <tr>
                 <td>09:30</td>
                 <td></td>
-                <td>712</td>
-                <td>Szeged</td>
-                <td>Kistelek-Szatymaz</td>
-                <td>3</td>
+                <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
+                <td align="left">Szeged</td>
+                <td align="left">Kistelek-Szatymaz</td>
+                <td align="right">3</td>
             </tr>
             <tr>
                 <td>09:31</td>
                 <td></td>
-                <td>727</td>
-                <td>Budapest-Nyugati**</td>
-                <td>Kecskemét-Cegléd</td>
-                <td>5</td>
+                <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
+                <td align="left">Budapest-Nyugati**</td>
+                <td align="left">Kecskemét-Cegléd</td>
+                <td align="right">5</td>
             </tr>
             <tr>
                 <td>09:44</td>
                 <td></td>
-                <td>7897</td>
-                <td>Külsőhalas</td>
+                <td><img src="interregio.png" alt="IR" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
+                <td align="left">Külsőhalas</td>
                 <td></td>
-                <td>3</td>
+                <td align="right">3</td>
             </tr>
             <tr>
                 <td>09:48</td>
                 <td></td>
-                <td>37412</td>
-                <td>Szentes</td>
-                <td>Csongrád</td>
-                <td>-</td>
+                <td><img src="szemelyvonat.png" alt="SZ" width="65%" style="vertical-align: middle;margin: 6px 14px"></td>
+                <td align="left">Szentes</td>
+                <td align="left">Csongrád</td>
+                <td align="right">-</td>
             </tr>
             <tr>
                 <td>10:15</td>
                 <td></td>
-                <td>7892</td>
-                <td>Kecskemét</td>
+                <td><img src="interregio.png" alt="IR" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
+                <td align="left">Kecskemét</td>
                 <td></td>
-                <td>3</td>
+                <td align="right">3</td>
             </tr>
             <tr>
                 <td>10:30</td>
                 <td></td>
-                <td>722</td>
-                <td>Szeged</td>
-                <td>Kistelek-Szatymaz</td>
-                <td>3</td>
+                <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"</td>
+                <td align="left">Szeged</td>
+                <td align="left">Kistelek-Szatymaz</td>
+                <td align="right">3</td>
             </tr>
             <tr>
                 <td>10:31</td>
                 <td></td>
-                <td>737</td>
-                <td>Budapest-Nyugati**</td>
-                <td>Kecskemét-Cegléd</td>
-                <td>5</td>
+                <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"</td>
+                <td align="left">Budapest-Nyugati**</td>
+                <td align="left">Kecskemét-Cegléd</td>
+                <td align="right">5</td>
             </tr>
         </tbody>
     </table>
