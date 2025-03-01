@@ -4,6 +4,7 @@ table {
     color: rgb(255, 255, 255); /*betűszín*/
     font-family: 'Arial'; /*betűtípus*/
     font-size: 30px;
+    border-color:  rgb(57, 97, 133);
 }
 tr:nth-child(even) {
     background-color: rgb(69, 121, 151);
