@@ -2,155 +2,16 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widtd=device-width, initial-scale=1.0">
-    <title>MÁV ÉRKEZŐ VONATOK</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Úticél keresés</title>
 </head>
-<table style="background-color: rgb(69, 121, 151); float: left; width: 9%; font-family: cursive;">
-    <tr>
-        <th>
-            <a href="indulo_vonatok.html" style="color: white; font-family: Arial; text-decoration: none;">INDULÓ VONATOK</a>
-        </th>
-    </tr>
-    <tr>
-        <th style="height: 40px; background-color: rgb(57, 97, 133);"></th>
-    </tr>
-    <tr>
-        <th>
-            <a href="Információk.html" style="background-color: rgb(69, 121, 151); color: white; font-family: Arial; text-decoration: none; float: left; width: 10%;">INFORMÁCIÓK</a>
-        </th>
-    </tr>
-</table>
 <body>
-    <table align="center"   tr {
-    border-bottom: 1px solid;}>
-        <colgroup>
-        <col span="2" style="width: 80px;">
-        <col span="1" style="width: 80px;">
-        <col span="2">
-        <col span="1" style="width: 40px;">
-        </colgroup>
-        <tr id="elsosor">
-            <th colspan="2" style="background-color: rgb(214, 214, 214);" id="ido"><div id="clock"></div></th>
-            <td id="ankunft" align="right">
-                <strong>Ankunft</strong>
-            </td>
-            <td id="erkezovonatok" align="right">
-                <strong>ÉRKEZŐ VONATOK</strong>
-            </td>
-            <td id="arrivals" align="center">
-                <strong>Arrivals</strong>
-             </td> 
-            <td id="logo">
-            <img src="mavlogo.png" width="90%" alt="máv logo" align="center">
-        </td>
-        </tr> 
-        <tr style="font-size: 20px;" align="center">
-            <th id="tervezett">Tervezett<br>érkezés</th>
-            <th id="varhato">Várható<br>érkezés</th>
-            <th>Vonat</th>
-            <th>Honnan</th>
-            <th></th>
-            <th align="left">Vg.</th>
-        </tr>
-    <tr>            
-        <td align="center">24:00</td>
-        <td align="center"></td>
-        <td><img src="szemelyvonat.png" alt="SZ" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Budapest-Nyugati</th>
-        <td></td>
-        <td align="right">3</td>
-    </tr>
-    <tr>
-        <td align="center">18:27</td>
-        <td id="keses">18:33</td>
-        <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 14px"></td>
-        <th align="left">Budapest-Nyugati</th>
-        <td><marquee direction="scroll">Ferihegy - Cegléd - Kecskemét - Kiskunfélegyháza**</marquee></td>
-        <td align="right">3</td>
-    </tr>
-    <tr>
-        <td align="center">18:30</td>
-        <td id="keses">18:36</td>
-        <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Szeged</th>
-        <td><marquee direction="scroll">Ferihegy - Cegléd - Kecskemét - Kiskunfélegyháza**</marquee></td>
-        <td align="right">4</td>
-    </tr>
-    <tr>
-        <td align="center">18:32</td>
-        <td></td>
-        <td><img src="s220.png" alt="s220" width="85%" style="vertical-align: middle;margin: 1px 7px"></td>
-        <th align="left">Lakitelek</th>
-        <td>Lakitelek</td>
-        <td align="right">2</td>
-    </tr>
-    <tr>
-        <td align="center">19:11</td>
-        <td></td>
-        <td><img src="szemelyvonat.png" alt="SZ" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left" style="width: 40%;">Budapest-Nyugati**</th>
-        <td></td>
-        <td align="right">1</td>
-    </tr>
-    <tr>
-        <td align="center">19:27</td>
-        <td id="keses">19:29</td>
-        <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Budapest-Nyugati</th>
-        <td><marquee direction="scroll">Ferihegy - Cegléd - Kecskemét - Kiskunfélegyháza**</marquee></td>
-        <td align="right">3</td>
-    </tr>   
-    <tr>
-        <td align="center">19:30</td>
-        <td></td>
-        <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Szeged</th>
-        <td><marquee direction="scroll">Ferihegy - Cegléd - Kecskemét - Kiskunfélegyháza**</marquee></td>
-        <td align="right">3</td>
-    </tr>  
-    <tr>
-        <td align="center">19:22</td>
-        <td></td>
-        <td><img src="szemelyvonat.png" alt="SZ" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Szeged</th>
-        <td></td>
-        <td align="right">4</td>
-    </tr>   
-    <tr>
-        <td align="center">19:42</td>
-        <td></td>
-        <td><img src="interregio.png" alt="IR" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Kecskemét</th>
-        <td>Kiskunhalas - Kiskunfélegyháza</td>
-        <td align="right">3</td>
-    </tr>  
-    <tr>
-        <td align="center">20:14</td>
-        <td></td>
-        <td><img src="interregio.png" alt="IR" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Külsőhalas</th>
-        <td>Kiskunhalas - Kiskunfélegyháza</td>
-        <td align="right">3</td>
-    </tr>   
-    <tr>
-        <td align="center">20:27</td>
-        <td></td>
-        <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Budapest-Nyugati</th>
-        <td><marquee direction="scroll">Ferihegy - Cegléd - Kecskemét - Kiskunfélegyháza**</marquee></td>
-        <td align="right">3</td>
-    </tr>   
-    <tr>
-        <td align="center">20:30</td>
-        <td></td>
-        <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
-        <th align="left">Szeged</th>
-        <td><marquee direction="scroll">Ferihegy - Cegléd - Kecskemét - Kiskunfélegyháza**</marquee></td>
-        <td align="right">5</td>
-    </tr>   
-    </table> 
-    <a href="indulo_vonatok.html">
+    <thead>
+        <table>
+            <th>Jegyvásárlás</th>
+            <th>Országbérlet</th>
+            <th>Menetrend</th>
+        </table>
+    </thead>
 </body>
 </html>
