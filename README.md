@@ -2,7 +2,7 @@
 
 Ez a projekt egy egyszerű webes felületet biztosít a MÁV vonatindulások és érkezések megjelenítésére. A weboldal **HTML** és **CSS** segítségével készült, és egy táblázatos formátumban jeleníti meg az aktuális menetrendet.
 
-![alt text](github_logo.png)
+![mavlogo](mavlogo.png)
 
 ### 📌 Funkciók
 - 🚉 Induló és érkező vonatok listázása táblázatban
@@ -10,11 +10,11 @@ Ez a projekt egy egyszerű webes felületet biztosít a MÁV vonatindulások és
 - 🎨 Felhasználóbarát, letisztult dizájn
 
 ### 🚀 Használat
-Egyszerűen nyisd meg a `https://juhasz-szabolcs.github.io/2025_01_30_MAV_utastajekoztato/` weboldalt a böngészőben, és a rendszer betölti az aktuális adatokat.
+Csak egy katintással nyisd meg a `https://mrspaniel.github.io/2025_01_30_MAV_utastajekoztato/` weboldalt a böngészőben, és a rendszer betölti az aktuális adatokat.
 #### 🌍 Élő demó
 
-A projekt élőben megtekinthető az alábbi linken:  
-[🔗 MÁV Utastájékoztató](https://juhasz-szabolcs.github.io/2025_01_30_MAV_utastajekoztato/)
+Nézd meg élőben a projektet az alábbi linken:  
+[🔗 MÁV Utastájékoztató](https://mrspaniel.github.io/2025_01_30_MAV_utastajekoztato/)
 
 ### 🏗️ Alap HTML szerkezet
 ```html
@@ -48,17 +48,30 @@ A projekt élőben megtekinthető az alábbi linken:
 
 ## 🎨 CSS Stílusok
 ```css
+table {
+  position: sticky;
+  /*elhelyezkedés*/
+  overflow-y: auto;
+  /*ez titok*/
+  width: 75%;
+  /*szélesség*/
+  background-color: rgb(38, 176, 101);
+  /*háttérszín*/
+  color: rgb(255, 255, 255);
+  /*betűszín*/
+  font-family: 'Arial';
+  /*betűtípus*/
+  font-size: 30px;
+  /*betűméret*/
+}
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    text-align: center;
+  background-image: url(hatter3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 90% 90%;
 }
 
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
 ```
 
 ### 🔧 Fejlesztési lehetőségek
