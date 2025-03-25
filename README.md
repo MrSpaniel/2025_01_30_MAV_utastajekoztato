@@ -28,20 +28,57 @@ Nézd meg élőben a projektet az alábbi linken:
 </head>
 <body>
     <h1>MÁV Utastájékoztató</h1>
-    <table>
-        <tr>
-            <th>Vonatszám</th>
-            <th>Indulás</th>
-            <th>Érkezés</th>
-            <th>Állomás</th>
+<table align="center" tr { border-bottom: 1px solid;}>
+        <colgroup>
+            <col span="2" style="width: 80px;">
+            <col span="1" style="width: 80px;">
+            <col span="2">
+            <col span="1" style="width: 40px;">
+        </colgroup>
+        <tr id="elsosor">
+            <th colspan="2" style="background-color: rgb(214, 214, 214);" id="ido">
+                <div id="clock"></div>
+            </th>
+            <td id="ankunft" align="right">
+                <strong>Ankunft</strong>
+            </td>
+            <td id="erkezovonatok" align="right">
+                <strong>ÉRKEZŐ VONATOK</strong>
+            </td>
+            <td id="arrivals" align="center">
+                <strong>Arrivals</strong>
+            </td>
+            <td id="logo">
+                <img src="mavlogo.png" width="90%" alt="máv logo" align="center">
+            </td>
+        </tr>
+        <tr style="font-size: 20px;" align="center">
+            <th id="tervezett">Tervezett<br>érkezés</th>
+            <th id="varhato">Várható<br>érkezés</th>
+            <th>Vonat</th>
+            <th>Honnan</th>
+            <th></th>
+            <th align="left">Vg.</th>
         </tr>
         <tr>
-            <td>1234</td>
-            <td>12:30</td>
-            <td>14:00</td>
-            <td>Budapest</td>
+            <td align="center">24:00</td>
+            <td align="center"></td>
+            <td><img src="szemelyvonat.png" alt="SZ" width="60%" style="vertical-align: middle;margin: 6px 16px;"></td>
+            <th align="left">Budapest-Nyugati</th>
+            <td></td>
+            <td align="right">3</td>
         </tr>
-    </table>
+        <tr>
+            <td align="center">18:27</td>
+            <td id="keses">18:33</td>
+            <td><img src="intercity.png" alt="IC" width="60%" style="vertical-align: middle;margin: 6px 14px"></td>
+            <th align="left">Budapest-Nyugati</th>
+            <td>
+                <marquee direction="scroll">Ferihegy - Cegléd - Kecskemét - Kiskunfélegyháza**</marquee>
+            </td>
+            <td align="right">3</td>
+        </tr>
+</table>
 </body>
 </html>
 ```
